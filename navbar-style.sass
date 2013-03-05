@@ -1,5 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Rancho|Oswald"
 
+$red: #c5453e
+
 body
     margin: 0
     padding: 0
@@ -11,7 +13,7 @@ body
     background: -o-linear-gradient(top,  #fef2d9 0%,#ffffff 100%)
     background: -ms-linear-gradient(top,  #fef2d9 0%,#ffffff 100%)
     background: linear-gradient(to bottom,  #fef2d9 0%,#ffffff 100%)
-    border-bottom: 10px solid #754c24
+    border-bottom: 10px solid
     -webkit-box-shadow: 0 8px 6px -6px #666
     -moz-box-shadow: 0 8px 6px -6px #666
     box-shadow: 0 8px 6px -6px #666
@@ -52,7 +54,7 @@ body
             right: 0
             
             a
-                color: #c5453e
+                color: $red
                 margin: 0 5px
                 
         &#sponsors-nav
@@ -70,7 +72,7 @@ body
             float: right
             
             a
-                color: #c5453e
+                color: $red
                 font-family: 'Rancho', serif
                 font-size: 22px
                 margin: 0 10px
@@ -82,13 +84,6 @@ body
                     padding-left: 22px
                 
         &#sites-nav
-            li
-                &:nth-child(1) a
-                    background: #83b419 !important
-                &:nth-child(2) a
-                    background: #f3b91f !important
-                &:nth-child(3) a
-                    background: #754c24 !important
             a
                 -webkit-border-top-left-radius: 10px
                 -webkit-border-top-right-radius: 10px

@@ -4,23 +4,28 @@
 
   window.AhoNavigation = AhoNavigation = (function() {
 
-    function AhoNavigation(authenticated) {
+    function AhoNavigation(authenticated, active) {
       this.authenticated = authenticated;
+      this.active = active;
       this.sections = [
         {
           name: "Website",
           prefix: true,
-          url: "http://abundantharvestorganics.com"
+          url: "http://abundantharvestorganics.com",
+          color: "#83b419"
         }, {
           name: "Kitchen",
           prefix: true,
-          url: "http://kitchen.abundantharvestorganics.com"
+          url: "http://kitchen.abundantharvestorganics.com",
+          color: "#f3b91f"
         }, {
           name: "My Account",
           prefix: false,
-          url: "http://my.abundantharvestorganics.com"
+          url: "http://my.abundantharvestorganics.com",
+          color: "#754c24"
         }
       ];
+      this.nav_color = "";
       this.navigation = "";
       this.sites();
       this.sponsors();
@@ -35,11 +40,14 @@
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         section = _ref[_i];
         this.append("<li class='top-nav" + section.name + "'>");
-        this.append("<a href='" + section.url + "'>");
+        this.append("<a href='" + section.url + "' style='background-color:" + section.color + "'>");
         if (section.prefix) {
           this.append("<span class='ah'>Abundant <br />Harvest</span>");
         }
         this.append("" + section.name + "</a></li>");
+        if (section.name.toLowerCase() === this.active.toLowerCase()) {
+          this.nav_color = section.color;
+        }
       }
       return this.append("</ul>");
     };
@@ -53,17 +61,17 @@
 
     AhoNavigation.prototype.info = function() {
       this.append("<ul id='info-nav'>");
-      this.append("<li><a href=''>Help</a></li>|");
-      this.append("<li><a href=''>Contact Us</a></li>");
+      this.append("<li><a href='http://www.abundantharvestorganics.com'>Help</a></li>|");
+      this.append("<li><a href='http://www.abundantharvestorganics.com/contacts/'>Contact Us</a></li>");
       return this.append("</ul>");
     };
 
     AhoNavigation.prototype.account = function() {
       this.append("<ul id='account-nav'>");
       if (!this.authenticated) {
-        this.append("<li><a href=''>Sign Up NOW</a></li>");
+        this.append("<li><a href='http://my.abundantharvestorganics.com/signup-delivery-step1.html'>Sign Up NOW</a></li>");
       }
-      this.append("<li><a href='' class='tell-a-friend'>Tell A Friend</a></li>");
+      this.append("<li><a href='http://www.abundantharvestorganics.com' class='tell-a-friend'>Tell A Friend</a></li>");
       return this.append("</ul>");
     };
 
@@ -72,7 +80,7 @@
     };
 
     AhoNavigation.prototype.render = function() {
-      document.write("<div id='top-nav'><div id='nav-inside'>");
+      document.write("<div id='top-nav' style='border-color:" + this.nav_color + "'><div id='nav-inside'>");
       document.write(this.navigation);
       return document.write("</div></div>");
     };

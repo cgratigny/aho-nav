@@ -10,7 +10,7 @@ body {
   background: -o-linear-gradient(top, #fef2d9 0%, white 100%);
   background: -ms-linear-gradient(top, #fef2d9 0%, white 100%);
   background: linear-gradient(to bottom, #fef2d9 0%, white 100%);
-  border-bottom: 10px solid #754c24;
+  border-bottom: 10px solid;
   -webkit-box-shadow: 0 8px 6px -6px #666666;
   -moz-box-shadow: 0 8px 6px -6px #666666;
   box-shadow: 0 8px 6px -6px #666666;
@@ -67,12 +67,6 @@ body {
         #top-nav ul#account-nav a.tell-a-friend {
           background: url(nav-tell.png) no-repeat 0 7px;
           padding-left: 22px; }
-    #top-nav ul#sites-nav li:nth-child(1) a {
-      background: #83b419 !important; }
-    #top-nav ul#sites-nav li:nth-child(2) a {
-      background: #f3b91f !important; }
-    #top-nav ul#sites-nav li:nth-child(3) a {
-      background: #754c24 !important; }
     #top-nav ul#sites-nav a {
       -webkit-border-top-left-radius: 10px;
       -webkit-border-top-right-radius: 10px;
