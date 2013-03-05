@@ -1,6 +1,6 @@
 window.AhoNavigation = class AhoNavigation
     
-    constructor: (@authenticated, @active) ->
+    constructor: (@authenticated, @active, @width = "1000px") ->
         @sections = [
             {
                 name: "Website",
@@ -69,7 +69,9 @@ window.AhoNavigation = class AhoNavigation
         @navigation += content
         
     render: ->
-        document.write("<div id='top-nav' style='border-color:#{@nav_color}'><div id='nav-inside'>")
+        document.write("<div id='top-nav' style='border-color:#{@nav_color}'>")
+        document.write("<div id='nav-inside' style='width:#{@width}'>")
         document.write(@navigation)
-        document.write("</div></div>")
+        document.write("</div>")
+        document.write("</div>")
             

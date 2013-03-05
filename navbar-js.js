@@ -4,9 +4,10 @@
 
   window.AhoNavigation = AhoNavigation = (function() {
 
-    function AhoNavigation(authenticated, active) {
+    function AhoNavigation(authenticated, active, width) {
       this.authenticated = authenticated;
       this.active = active;
+      this.width = width != null ? width : "1000px";
       this.sections = [
         {
           name: "Website",
@@ -80,9 +81,11 @@
     };
 
     AhoNavigation.prototype.render = function() {
-      document.write("<div id='top-nav' style='border-color:" + this.nav_color + "'><div id='nav-inside'>");
+      document.write("<div id='top-nav' style='border-color:" + this.nav_color + "'>");
+      document.write("<div id='nav-inside' style='width:" + this.width + "'>");
       document.write(this.navigation);
-      return document.write("</div></div>");
+      document.write("</div>");
+      return document.write("</div>");
     };
 
     return AhoNavigation;
