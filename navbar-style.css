@@ -77,13 +77,16 @@ body {
       color: white;
       display: inline-block;
       font-family: "Rancho", serif;
-      font-size: 25px;
+      font-size: 27px;
+      font-weight: 100;
       margin: 0;
       padding: 5px 20px;
-      text-decoration: none; }
+      text-decoration: none;
+      text-shadow: 1px 1px #666666; }
       #top-nav ul#sites-nav a span {
         display: inline-block;
         font-family: arial;
         font-size: 12px;
-        font-weight: bold;
-        margin: 0 10px 0 0; }
+        font-weight: 400;
+        margin: 0 10px 0 0;
+        text-shadow: none; }
