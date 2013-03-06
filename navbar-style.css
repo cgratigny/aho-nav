@@ -21,6 +21,7 @@
     font-style: inherit;
     font-size: 100%;
     font-family: inherit;
+    line-height: normal !important;
     vertical-align: baseline; }
   #top-nav #nav-inside {
     margin: 0 auto !important;
@@ -56,11 +57,10 @@
       position: relative !important;
       margin: 0 20px !important;
       top: 5px !important; }
-      #top-nav ul#sponsors-nav img {
-        display: inline-block !important;
-        margin: 0 5px !important;
-        padding: 0 !important;
-        height: 30px !important; }
+      #top-nav ul#sponsors-nav li {
+        margin: 0 5px !important; }
+        #top-nav ul#sponsors-nav li a img {
+          height: 30px; }
     #top-nav ul#account-nav {
       float: right !important; }
       #top-nav ul#account-nav a {

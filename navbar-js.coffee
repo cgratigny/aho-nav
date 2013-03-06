@@ -33,7 +33,7 @@ window.AhoNavigation = class AhoNavigation
     sites: ->
         this.append("<ul id='sites-nav'>")
         for section in @sections
-            this.append("<li class='top-nav#{section.name}'>")
+            this.append("<li class='top-nav #{section.name}'>")
             this.append("<a href='#{section.url}' style='background-color:#{section.color}'>")
             if section.prefix
                 this.append("<span class='ah'>Abundant <br />Harvest</span>")
@@ -46,8 +46,8 @@ window.AhoNavigation = class AhoNavigation
     
     sponsors: ->
         this.append("<ul id='sponsors-nav'>")
-        this.append("<a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='http://cgratigny.github.com/aho-nav/logo-usda.png' /></a>")
-        this.append("<a href='http://www.ccof.org/'><img src='http://cgratigny.github.com/aho-nav/logo-ccof.png' /></a>")
+        this.append("<li><a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='http://cgratigny.github.com/aho-nav/logo-usda.png' /></a></li>")
+        this.append("<li><a href='http://www.ccof.org/'><img src='http://cgratigny.github.com/aho-nav/logo-ccof.png' /></a></li>")
         this.append("</ul>")
         
         

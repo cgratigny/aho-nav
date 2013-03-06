@@ -40,7 +40,7 @@
       _ref = this.sections;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         section = _ref[_i];
-        this.append("<li class='top-nav" + section.name + "'>");
+        this.append("<li class='top-nav " + section.name + "'>");
         this.append("<a href='" + section.url + "' style='background-color:" + section.color + "'>");
         if (section.prefix) {
           this.append("<span class='ah'>Abundant <br />Harvest</span>");
@@ -55,8 +55,8 @@
 
     AhoNavigation.prototype.sponsors = function() {
       this.append("<ul id='sponsors-nav'>");
-      this.append("<a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='http://cgratigny.github.com/aho-nav/logo-usda.png' /></a>");
-      this.append("<a href='http://www.ccof.org/'><img src='http://cgratigny.github.com/aho-nav/logo-ccof.png' /></a>");
+      this.append("<li><a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='http://cgratigny.github.com/aho-nav/logo-usda.png' /></a></li>");
+      this.append("<li><a href='http://www.ccof.org/'><img src='http://cgratigny.github.com/aho-nav/logo-ccof.png' /></a></li>");
       return this.append("</ul>");
     };
 
