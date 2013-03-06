@@ -1,88 +1,88 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Oswald);
 #top-nav {
-  background: -moz-linear-gradient(top, #fef2d9 0%, white 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white));
-  background: -webkit-linear-gradient(top, #fef2d9 0%, white 100%);
-  background: -o-linear-gradient(top, #fef2d9 0%, white 100%);
-  background: -ms-linear-gradient(top, #fef2d9 0%, white 100%);
-  background: linear-gradient(to bottom, #fef2d9 0%, white 100%);
+  background: -moz-linear-gradient(top, #fef2d9 0%, white 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white)) !important;
+  background: -webkit-linear-gradient(top, #fef2d9 0%, white 100%) !important;
+  background: -o-linear-gradient(top, #fef2d9 0%, white 100%) !important;
+  background: -ms-linear-gradient(top, #fef2d9 0%, white 100%) !important;
+  background: linear-gradient(to bottom, #fef2d9 0%, white 100%) !important;
   border-bottom: 10px solid;
-  -webkit-box-shadow: 0 8px 6px -6px #666666;
-  -moz-box-shadow: 0 8px 6px -6px #666666;
-  box-shadow: 0 8px 6px -6px #666666;
-  margin: 0 auto;
-  padding: 15px 0 0 0; }
+  -webkit-box-shadow: 0 8px 6px -6px #666666 !important;
+  -moz-box-shadow: 0 8px 6px -6px #666666 !important;
+  box-shadow: 0 8px 6px -6px #666666 !important;
+  margin: 0 auto !important;
+  padding: 15px 0 0 0 !important; }
   #top-nav #nav-inside {
-    margin: 0 auto;
-    text-align: center;
-    width: 1000px;
-    position: relative; }
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 1000px !important;
+    position: relative !important; }
   #top-nav ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0; }
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important; }
     #top-nav ul li {
-      display: inline-block;
-      list-style: none;
-      margin: 0;
-      padding: 0; }
+      display: inline-block !important;
+      list-style: none !important;
+      margin: 0 !important;
+      padding: 0 !important; }
       #top-nav ul li span.ah {
-        display: inline-block;
-        margin-right: 10px;
-        position: relative;
-        top: 3px;
-        text-align: center; }
+        display: inline-block !important;
+        margin-right: 10px !important;
+        position: relative !important;
+        top: 3px !important;
+        text-align: center !important; }
       #top-nav ul li a {
-        text-decoration: none; }
+        text-decoration: none !important; }
     #top-nav ul#info-nav {
-      position: absolute;
-      font-size: 0.83em;
-      top: -15px;
-      right: 0; }
+      position: absolute !important;
+      font-size: 0.83em !important;
+      top: -15px !important;
+      right: 0 !important; }
       #top-nav ul#info-nav a {
-        color: #c5453e;
-        margin: 0 5px; }
+        color: #c5453e !important;
+        margin: 0 5px !important; }
     #top-nav ul#sponsors-nav {
-      position: relative;
-      margin: 0 20px;
-      top: 5px; }
+      position: relative !important;
+      margin: 0 20px !important;
+      top: 5px !important; }
       #top-nav ul#sponsors-nav img {
-        display: inline-block;
-        margin: 0 5px;
-        padding: 0;
-        height: 30px; }
+        display: inline-block !important;
+        margin: 0 5px !important;
+        padding: 0 !important;
+        height: 30px !important; }
     #top-nav ul#account-nav {
-      float: right; }
+      float: right !important; }
       #top-nav ul#account-nav a {
         color: #c5453e;
-        font-family: "Rancho", serif;
-        font-size: 22px;
-        margin: 0 10px;
-        position: relative;
-        top: 10px; }
+        font-family: "Rancho", serif !important;
+        font-size: 22px !important;
+        margin: 0 10px !important;
+        position: relative !important;
+        top: 10px !important; }
         #top-nav ul#account-nav a.tell-a-friend {
-          background: url(nav-tell.png) no-repeat 0 7px;
-          padding-left: 22px; }
+          background: url(nav-tell.png) no-repeat 0 7px !important;
+          padding-left: 22px !important; }
     #top-nav ul#sites-nav a {
-      -webkit-border-top-left-radius: 10px;
-      -webkit-border-top-right-radius: 10px;
-      -moz-border-radius-topleft: 10px;
-      -moz-border-radius-topright: 10px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      color: white;
-      display: inline-block;
-      font-family: "Rancho", serif;
-      font-size: 27px;
-      font-weight: 100;
-      margin: 0;
-      height: 45px;
-      text-decoration: none;
-      text-shadow: 1px 1px #666666; }
+      -webkit-border-top-left-radius: 10px !important;
+      -webkit-border-top-right-radius: 10px !important;
+      -moz-border-radius-topleft: 10px !important;
+      -moz-border-radius-topright: 10px !important;
+      border-top-left-radius: 10px !important;
+      border-top-right-radius: 10px !important;
+      color: white !important;
+      display: inline-block !important;
+      font-family: "Rancho", serif !important;
+      font-size: 27px !important;
+      font-weight: 100 !important;
+      margin: 0 !important;
+      padding: 5px 20px !important;
+      text-decoration: none !important;
+      text-shadow: 1px 1px #666666 !important; }
       #top-nav ul#sites-nav a span {
-        display: inline-block;
-        font-family: arial;
-        font-size: 12px;
-        font-weight: 400;
-        margin: 0 10px 0 0;
-        text-shadow: none; }
+        display: inline-block !important;
+        font-family: arial !important;
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        margin: 0 10px 0 0 !important;
+        text-shadow: none !important; }
