@@ -12,6 +12,16 @@
   box-shadow: 0 8px 6px -6px #666666 !important;
   margin: 0 auto !important;
   padding: 15px 0 0 0 !important; }
+  #top-nav * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline; }
   #top-nav #nav-inside {
     margin: 0 auto !important;
     text-align: center !important;
