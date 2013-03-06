@@ -60,7 +60,7 @@
       #top-nav ul#sponsors-nav li {
         margin: 0 5px !important; }
         #top-nav ul#sponsors-nav li a img {
-          height: 30px; }
+          height: 30px !important; }
     #top-nav ul#account-nav {
       float: right !important; }
       #top-nav ul#account-nav a {
