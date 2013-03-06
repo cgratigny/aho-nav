@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Oswald);
-body {
-  margin: 0;
-  padding: 0; }
-
 #top-nav {
   background: -moz-linear-gradient(top, #fef2d9 0%, white 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white));

@@ -46,8 +46,8 @@ window.AhoNavigation = class AhoNavigation
     
     sponsors: ->
         this.append("<ul id='sponsors-nav'>")
-        this.append("<a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='logo-usda.png' /></a>")
-        this.append("<a href='http://www.ccof.org/'><img src='logo-ccof.png' /></a>")
+        this.append("<a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='http://cgratigny.github.com/aho-nav/logo-usda.png' /></a>")
+        this.append("<a href='http://www.ccof.org/'><img src='http://cgratigny.github.com/aho-nav/logo-ccof.png' /></a>")
         this.append("</ul>")
         
         
