@@ -48,7 +48,7 @@
     #top-nav ul#info-nav {
       position: absolute !important;
       font-size: 0.83em !important;
-      top: -15px !important;
+      top: -10px !important;
       right: 0 !important; }
       #top-nav ul#info-nav a {
         color: #c5453e !important;
@@ -69,7 +69,7 @@
         font-size: 22px !important;
         margin: 0 10px !important;
         position: relative !important;
-        top: 10px !important; }
+        top: 15px !important; }
         #top-nav ul#account-nav a.tell-a-friend {
           background: url(nav-tell.png) no-repeat 0 7px !important;
           padding-left: 22px !important; }
@@ -83,10 +83,10 @@
       color: white !important;
       display: inline-block !important;
       font-family: "Rancho", serif !important;
-      font-size: 27px !important;
+      font-size: 28px !important;
       font-weight: 100 !important;
       margin: 0 !important;
-      padding: 5px 20px !important;
+      padding: 5px 30px !important;
       text-decoration: none !important;
       text-shadow: 1px 1px #666666 !important; }
       #top-nav ul#sites-nav a span {
