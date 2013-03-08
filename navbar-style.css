@@ -90,6 +90,7 @@
       text-decoration: none !important;
       text-shadow: 1px 1px #666666 !important; }
       #top-nav ul#sites-nav a span {
+        color: white !important;
         display: inline-block !important;
         font-family: arial !important;
         font-size: 12px !important;
