@@ -2,7 +2,7 @@
 
 [View a sample](http://cgratigny.github.com/aho-nav/sample.html)
 
-To embed the navigation on your site, paste the following-
+To test the navigation on your site, paste the following-
 
     <link rel="stylesheet" href="http://cgratigny.github.com/aho-nav/navbar-style.css" type="text/css" media="screen" />
     <script type="text/javascript" src="http://cgratigny.github.com/aho-nav/navbar-js.js"></script>
@@ -10,6 +10,17 @@ To embed the navigation on your site, paste the following-
       var aho = new AhoNavigation(false, "kitchen", "1200px");
       aho.render();
     </script>
+    
+    
+To embed the navigation on your site, paste the following-
+
+    <link rel="stylesheet" href="http://nav.abundantharvestorganics.com/navbar-style.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="http://nav.abundantharvestorganics.com/navbar-js.js"></script>
+    <script>
+      var aho = new AhoNavigation(false, "website", "1000px");
+      aho.render();
+    </script>
+
     
 Argument list-
 
