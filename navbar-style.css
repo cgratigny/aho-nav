@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Oswald);
-#top-nav {
+body {
+  padding-top: 100px; }
+
+#aho-global-top-nav {
   background: -moz-linear-gradient(top, #fef2d9 0%, white 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white)) !important;
   background: -webkit-linear-gradient(top, #fef2d9 0%, white 100%) !important;
@@ -11,8 +14,11 @@
   -moz-box-shadow: 0 8px 6px -6px #666666 !important;
   box-shadow: 0 8px 6px -6px #666666 !important;
   margin: 0 auto !important;
-  padding: 15px 0 0 0 !important; }
-  #top-nav * {
+  padding: 15px 0 0 0 !important;
+  position: absolute !important;
+  top: 0;
+  left: 0; }
+  #aho-global-top-nav * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -23,57 +29,57 @@
     font-family: inherit;
     line-height: normal !important;
     vertical-align: baseline; }
-  #top-nav #nav-inside {
+  #aho-global-top-nav #nav-inside {
     margin: 0 auto !important;
     text-align: center !important;
     width: 1000px !important;
     position: relative !important; }
-  #top-nav ul {
+  #aho-global-top-nav ul {
     display: inline-block !important;
     margin: 0 !important;
     padding: 0 !important; }
-    #top-nav ul li {
+    #aho-global-top-nav ul li {
       display: inline-block !important;
       list-style: none !important;
       margin: 0 !important;
       padding: 0 !important; }
-      #top-nav ul li span.ah {
+      #aho-global-top-nav ul li span.ah {
         display: inline-block !important;
         margin-right: 10px !important;
         position: relative !important;
         top: 3px !important;
         text-align: center !important; }
-      #top-nav ul li a {
+      #aho-global-top-nav ul li a {
         text-decoration: none !important; }
-    #top-nav ul#info-nav {
+    #aho-global-top-nav ul#info-nav {
       position: absolute !important;
       font-size: 0.83em !important;
       top: -10px !important;
       right: 0 !important; }
-      #top-nav ul#info-nav a {
+      #aho-global-top-nav ul#info-nav a {
         color: #c5453e !important;
         margin: 0 5px !important; }
-    #top-nav ul#sponsors-nav {
+    #aho-global-top-nav ul#sponsors-nav {
       position: relative !important;
       margin: 0 20px !important;
       top: 5px !important; }
-      #top-nav ul#sponsors-nav li {
+      #aho-global-top-nav ul#sponsors-nav li {
         margin: 0 5px !important; }
-        #top-nav ul#sponsors-nav li a img {
+        #aho-global-top-nav ul#sponsors-nav li a img {
           height: 30px !important; }
-    #top-nav ul#account-nav {
+    #aho-global-top-nav ul#account-nav {
       float: right !important; }
-      #top-nav ul#account-nav a {
+      #aho-global-top-nav ul#account-nav a {
         color: #c5453e;
         font-family: "Rancho", serif !important;
         font-size: 22px !important;
         margin: 0 10px !important;
         position: relative !important;
         top: 15px !important; }
-        #top-nav ul#account-nav a.tell-a-friend {
+        #aho-global-top-nav ul#account-nav a.tell-a-friend {
           background: url(nav-tell.png) no-repeat 0 7px !important;
           padding-left: 22px !important; }
-    #top-nav ul#sites-nav a {
+    #aho-global-top-nav ul#sites-nav a {
       -webkit-border-top-left-radius: 10px !important;
       -webkit-border-top-right-radius: 10px !important;
       -moz-border-radius-topleft: 10px !important;
@@ -89,7 +95,7 @@
       padding: 5px 30px !important;
       text-decoration: none !important;
       text-shadow: 1px 1px #666666 !important; }
-      #top-nav ul#sites-nav a span {
+      #aho-global-top-nav ul#sites-nav a span {
         color: white !important;
         display: inline-block !important;
         font-family: arial !important;

@@ -33,7 +33,7 @@ window.AhoNavigation = class AhoNavigation
     sites: ->
         this.append("<ul id='sites-nav'>")
         for section in @sections
-            this.append("<li class='top-nav #{section.name}'>")
+            this.append("<li class='aho-global-top-nav #{section.name}'>")
             this.append("<a href='#{section.url}' style='background-color:#{section.color}'>")
             if section.prefix
                 this.append("<span class='ah'>Abundant <br />Harvest</span>")
@@ -69,7 +69,7 @@ window.AhoNavigation = class AhoNavigation
         @navigation += content
         
     render: ->
-        document.write("<div id='top-nav' style='border-color:#{@nav_color}'>")
+        document.write("<div id='aho-global-top-nav' style='border-color:#{@nav_color}'>")
         document.write("<div id='nav-inside' style='width:#{@width}'>")
         document.write(@navigation)
         document.write("</div>")

@@ -40,7 +40,7 @@
       _ref = this.sections;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         section = _ref[_i];
-        this.append("<li class='top-nav " + section.name + "'>");
+        this.append("<li class='aho-global-top-nav " + section.name + "'>");
         this.append("<a href='" + section.url + "' style='background-color:" + section.color + "'>");
         if (section.prefix) {
           this.append("<span class='ah'>Abundant <br />Harvest</span>");
@@ -81,7 +81,7 @@
     };
 
     AhoNavigation.prototype.render = function() {
-      document.write("<div id='top-nav' style='border-color:" + this.nav_color + "'>");
+      document.write("<div id='aho-global-top-nav' style='border-color:" + this.nav_color + "'>");
       document.write("<div id='nav-inside' style='width:" + this.width + "'>");
       document.write(this.navigation);
       document.write("</div>");
