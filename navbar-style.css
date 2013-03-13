@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Oswald);
 body {
-  padding-top: 100px; }
+  padding-top: 100px !important; }
 
 #aho-global-top-nav {
   background: -moz-linear-gradient(top, #fef2d9 0%, white 100%) !important;
@@ -16,9 +16,9 @@ body {
   margin: 0 auto !important;
   padding: 15px 0 0 0 !important;
   position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%; }
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important; }
   #aho-global-top-nav * {
     margin: 0;
     padding: 0;
