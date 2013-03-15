@@ -5,18 +5,21 @@ window.AhoNavigation = class AhoNavigation
             {
                 name: "Website",
                 prefix: true,
+                image: "website.png",
                 url: "http://abundantharvestorganics.com",
                 color: "#83b419"
             },
             {
                 name: "Kitchen",
                 prefix: true,
+                image: "kitchen.png",
                 url: "http://kitchen.abundantharvestorganics.com",
                 color: "#f3b91f"
             },
             {
                 name: "My Account",
                 prefix: false,
+                image: "my_account.png",
                 url: "http://my.abundantharvestorganics.com",
                 color: "#754c24"
             }
@@ -37,7 +40,7 @@ window.AhoNavigation = class AhoNavigation
             this.append("<a href='#{section.url}' style='background-color:#{section.color}'>")
             if section.prefix
                 this.append("<span class='ah'>Abundant <br />Harvest</span>")
-            this.append("#{section.name}</a></li>")
+            this.append("<img src=\"https://nav.abundantharvestorganics.com/#{section.image}\" /></a></li>")
             
             if section.name.toLowerCase() == @active.toLowerCase()
                 @nav_color = section.color
