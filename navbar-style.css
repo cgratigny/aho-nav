@@ -80,26 +80,4 @@ body {
           background: url(nav-tell.png) no-repeat 0 7px !important;
           padding-left: 22px !important; }
     #aho-global-top-nav ul#sites-nav a {
-      -webkit-border-top-left-radius: 10px !important;
-      -webkit-border-top-right-radius: 10px !important;
-      -moz-border-radius-topleft: 10px !important;
-      -moz-border-radius-topright: 10px !important;
-      border-top-left-radius: 10px !important;
-      border-top-right-radius: 10px !important;
-      color: white !important;
-      display: inline-block !important;
-      font-family: "Rancho", serif !important;
-      font-size: 28px !important;
-      font-weight: 100 !important;
-      margin: 0 !important;
-      padding: 5px 30px !important;
-      text-decoration: none !important;
-      text-shadow: 1px 1px #666666 !important; }
-      #aho-global-top-nav ul#sites-nav a span {
-        color: white !important;
-        display: inline-block !important;
-        font-family: arial !important;
-        font-size: 12px !important;
-        font-weight: 400 !important;
-        margin: 0 10px 0 0 !important;
-        text-shadow: none !important; }
+      display: inline-block !important; }
