@@ -3,6 +3,7 @@ body {
   padding-top: 100px !important; }
 
 #aho-global-top-nav {
+  height: 48px;
   background: -moz-linear-gradient(top, #fef2d9 0%, white 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white)) !important;
   background: -webkit-linear-gradient(top, #fef2d9 0%, white 100%) !important;
@@ -20,7 +21,6 @@ body {
   left: 0 !important;
   width: 100% !important; }
   #aho-global-top-nav * {
-    height: 48px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -64,7 +64,7 @@ body {
       vertical-align: bottom !important;
       position: relative !important;
       margin: 0 20px !important;
-      top: 5px !important; }
+      bottom: 5px !important; }
       #aho-global-top-nav ul#sponsors-nav li {
         margin: 0 5px !important; }
         #aho-global-top-nav ul#sponsors-nav li a img {
