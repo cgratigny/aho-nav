@@ -29,7 +29,7 @@ body {
     font-style: inherit;
     font-size: 100%;
     font-family: inherit;
-    line-height: normal !important; }
+     }
   #aho-global-top-nav #nav-inside {
     margin: 0 auto !important;
     width: 1000px !important;
@@ -68,6 +68,14 @@ body {
         margin: 0 5px !important; }
         #aho-global-top-nav ul#sponsors-nav li a img {
           height: 30px !important; }
+        #aho-global-top-nav ul#sponsors-nav li {
+          font-family:Arial;
+          color: #076532 !important;
+          font-size:13px !important;
+          vertical-align: middle !important;
+          line-height:12px !important;
+          padding-top:5px !important;
+        }
     #aho-global-top-nav ul#account-nav {
       float: right !important; }
       #aho-global-top-nav ul#account-nav a {
