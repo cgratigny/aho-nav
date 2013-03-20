@@ -3,6 +3,7 @@ body {
   padding-top: 100px !important; }
 
 #aho-global-top-nav {
+  font: 1em Arial, Helvetica, sans-serif !important;
   height: 48px;
   background: -moz-linear-gradient(top, #fef2d9 0%, white 100%) !important;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef2d9), color-stop(100%, white)) !important;
@@ -77,6 +78,7 @@ body {
           padding-top:5px !important;
         }
     #aho-global-top-nav ul#account-nav {
+      vertical-align: bottom !important;
       float: right !important; }
       #aho-global-top-nav ul#account-nav a {
         color: #c5453e;
@@ -87,6 +89,7 @@ body {
         top: 15px !important; }
         #aho-global-top-nav ul#account-nav a.tell-a-friend {
           background: url(nav-tell.png) no-repeat 0 7px !important;
-          padding-left: 22px !important; }
+          padding-left: 22px !important; 
+    }
     #aho-global-top-nav ul#sites-nav a {
       display: inline-block !important; }
