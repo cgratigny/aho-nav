@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho|Oswald);
 body {
-  padding-top: 100px !important; }
+  padding-top: 80px !important; }
 
 #aho-global-top-nav {
   height: 48px;
@@ -63,7 +63,7 @@ body {
     #aho-global-top-nav ul#sponsors-nav {
       position: relative !important;
       margin: 0 20px !important;
-      bottom: 5px !important; }
+      bottom: 7px !important; }
       #aho-global-top-nav ul#sponsors-nav li {
         margin: 0 5px !important; }
         #aho-global-top-nav ul#sponsors-nav li a img {
