@@ -48,6 +48,7 @@ window.AhoNavigation = class AhoNavigation
         this.append("<ul id='sponsors-nav'>")
         this.append("<li><a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='https://nav.abundantharvestorganics.com/logo-usda.png' /></a></li>")
         this.append("<li><a href='http://www.ccof.org/'><img src='https://nav.abundantharvestorganics.com/logo-ccof.png' /></a></li>")
+        this.append("<li>Non-<br />GMO</li>")
         this.append("</ul>")
         
         
@@ -61,7 +62,7 @@ window.AhoNavigation = class AhoNavigation
     account: ->
         this.append("<ul id='account-nav'>")
         this.append("<li><a href='http://my.abundantharvestorganics.com/signup-delivery-step1.html'>Sign Up NOW</a></li>") unless @authenticated
-        this.append("<li><a href='http://www.abundantharvestorganics.com' class='tell-a-friend'>Tell A Friend</a></li>")
+        this.append("<li><a href='http://www.abundantharvestorganics.com' class='tell-a-friend'>Tell a Friend</a></li>")
         this.append("</ul>")
         
            
