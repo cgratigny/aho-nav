@@ -46,9 +46,9 @@ window.AhoNavigation = class AhoNavigation
     
     sponsors: ->
         this.append("<ul id='sponsors-nav'>")
-        this.append("<li><a href='http://www.usda.gov/wps/portal/usda/usdahome?navid=ORGANIC_CERTIFICATIO'><img src='https://nav.abundantharvestorganics.com/logo-usda.png' /></a></li>")
-        this.append("<li><a href='http://www.ccof.org/'><img src='https://nav.abundantharvestorganics.com/logo-ccof.png' /></a></li>")
-        this.append("<li>Non-<br />GMO</li>")
+        this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/logo-usda.png' /></a></li>")
+        this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/logo-ccof.png' /></a></li>")
+        this.append("<li<a href='http://my.abundantharvestorganics.com/public/why-organic/'>>Non-<br />GMO</a></li>")
         this.append("</ul>")
         
         
