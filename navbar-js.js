@@ -53,9 +53,7 @@
 
     AhoNavigation.prototype.sponsors = function() {
       this.append("<ul id='sponsors-nav'>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/logo-usda.png' /></a></li>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/logo-ccof.png' /></a></li>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'>Non-<br />GMO</a></li>");
+      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>");
       return this.append("</ul>");
     };
 

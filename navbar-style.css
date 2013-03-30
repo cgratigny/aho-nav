@@ -63,12 +63,12 @@ body {
     #aho-global-top-nav ul#sponsors-nav {
       vertical-align: bottom !important;
       position: relative !important;
-      margin: 0 20px !important;
+      margin: 0 10px !important;
       bottom: 7px !important; }
       #aho-global-top-nav ul#sponsors-nav li {
         margin: 0 5px !important; }
         #aho-global-top-nav ul#sponsors-nav li a img {
-          height: 30px !important; }
+          height: 40px !important; }
         #aho-global-top-nav ul#sponsors-nav li a {
           color: #076532 !important;
         }
