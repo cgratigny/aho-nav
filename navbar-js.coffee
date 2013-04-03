@@ -52,7 +52,7 @@ window.AhoNavigation = class AhoNavigation
         
     info: ->
         this.append("<ul id='info-nav'>")
-        this.append("<li><a href='http://www.abundantharvestorganics.com'>Help</a></li>|")
+        this.append("<li><a href='http://my.abundantharvestorganics.com/public/most-common-questions-about-abundant-harvest-organics/'>Help</a></li>|")
         this.append("<li><a href='http://www.abundantharvestorganics.com/contacts/'>Contact Us</a></li>")
         this.append("</ul>")
         
