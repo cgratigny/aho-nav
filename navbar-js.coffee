@@ -60,7 +60,7 @@ window.AhoNavigation = class AhoNavigation
     account: ->
         this.append("<ul id='account-nav'>")
         this.append("<li><a href='http://my.abundantharvestorganics.com/signup-delivery-step1.html'>Sign Up NOW</a></li>") unless @authenticated
-        this.append("<li><a href='http://www.abundantharvestorganics.com' class='tell-a-friend'>Tell a Friend</a></li>")
+        this.append("<li><a href='http://my.abundantharvestorganics.com/public/tell-a-friend' class='tell-a-friend'>Tell a Friend</a></li>")
         this.append("</ul>")
         
            
