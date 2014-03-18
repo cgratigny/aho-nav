@@ -1,7 +1,7 @@
 window.AhoNavigation = class AhoNavigation
     
     constructor: (@authenticated, @active, @width = "1000px") ->
-        @root_url = "https://nav.abundantharvestorganics.com/"
+        @root_url = "http://nav.abundantharvestorganics.com/"
         # @root_url = ""
         @sections = [
             {
@@ -46,7 +46,7 @@ window.AhoNavigation = class AhoNavigation
     
     sponsors: ->
         this.append("<ul id='sponsors-nav'>")
-        this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>")
+        this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='http://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>")
         this.append("</ul>")
         
         

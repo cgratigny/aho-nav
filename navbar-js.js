@@ -8,7 +8,7 @@
       this.authenticated = authenticated;
       this.active = active;
       this.width = width != null ? width : "1000px";
-      this.root_url = "https://nav.abundantharvestorganics.com/";
+      this.root_url = "http://nav.abundantharvestorganics.com/";
       this.sections = [
         {
           name: "Website",
@@ -53,7 +53,7 @@
 
     AhoNavigation.prototype.sponsors = function() {
       this.append("<ul id='sponsors-nav'>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='https://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>");
+      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='http://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>");
       return this.append("</ul>");
     };
 
