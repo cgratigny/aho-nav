@@ -23,7 +23,7 @@
         }, {
           name: "My Account",
           image: "my_account.png",
-          url: "http://my.abundantharvestorganics.com",
+          url: "https://my.abundantharvestorganics.com",
           color: "#754c24"
         }
       ];
@@ -53,13 +53,13 @@
 
     AhoNavigation.prototype.sponsors = function() {
       this.append("<ul id='sponsors-nav'>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/why-organic/'><img src='http://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>");
+      this.append("<li><a href='https://my.abundantharvestorganics.com/public/why-organic/'><img src='http://nav.abundantharvestorganics.com/organic-nongmo-bugs.png' /></a></li>");
       return this.append("</ul>");
     };
 
     AhoNavigation.prototype.info = function() {
       this.append("<ul id='info-nav'>");
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/most-common-questions-about-abundant-harvest-organics/'>Help</a></li>|");
+      this.append("<li><a href='https://my.abundantharvestorganics.com/public/most-common-questions-about-abundant-harvest-organics/'>Help</a></li>|");
       this.append("<li><a href='http://www.abundantharvestorganics.com/contacts/'>Contact Us</a></li>");
       return this.append("</ul>");
     };
@@ -67,9 +67,9 @@
     AhoNavigation.prototype.account = function() {
       this.append("<ul id='account-nav'>");
       if (!this.authenticated) {
-        this.append("<li><a href='http://my.abundantharvestorganics.com/signup-delivery-step1.html'>Sign Up NOW</a></li>");
+        this.append("<li><a href='https://my.abundantharvestorganics.com/signup-delivery-step1.html'>Sign Up NOW</a></li>");
       }
-      this.append("<li><a href='http://my.abundantharvestorganics.com/public/tell-a-friend' class='tell-a-friend'>Tell a Friend</a></li>");
+      this.append("<li><a href='https://my.abundantharvestorganics.com/public/tell-a-friend' class='tell-a-friend'>Tell a Friend</a></li>");
       return this.append("</ul>");
     };
 
