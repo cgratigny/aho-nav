@@ -18,7 +18,7 @@
         }, {
           name: "Kitchen",
           image: "kitchen.png",
-          url: "http://kitchen.abundantharvestorganics.com",
+          url: "http://www.abundantharvestkitchen.com/",
           color: "#f3b91f"
         }, {
           name: "My Account",
